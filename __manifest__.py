@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Gym",
+    'name': "PureFitness Client Information",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Adds client information to contacts page""",
 
     'description': """
-        Long description of module's purpose
-    """,
+        Adds client information to contacts page
+        """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Jerome",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
