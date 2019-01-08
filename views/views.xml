@@ -9,17 +9,15 @@
                 <page string="Client Information">
                     <group>
                         <field name="plan"/>
-                        <field name="price"/>
-                        <field name="due"/>
-                        <field name="dob"/>
-                        <field name="due_amount"/>
+                        <field name="price"/>                        
                         <field name="paid_amount"/>
                         <field name="start_date"/>
                         <field name="end_date"/>
                         <field name="total_due"/>
-                        <field name="phone"/>
-                    </group>
-                </page>
+                        <hr/>
+                        <field name="due"/>
+                        <field name="due_amount"/>
+                    </group>              
             </notebook>
         </field>
     </record>
