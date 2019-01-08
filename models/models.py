@@ -12,13 +12,11 @@ class gym(models.Model):
                              ('6-months', '6-Months'), ('yearly', 'Yearly')), 'Plan')
     price = fields.Integer('Quoted Price', readonly=False, compute="_calculate_amount")
     due = fields.Boolean(string='Due', readonly=1)
-    dob = fields.Date(string='Date of birth', readonly=1, )
     due_amount = fields.Integer(string='Due Amount', readonly=1)
     paid_amount = fields.Integer(string='Amount Paid')
     start_date = fields.Date(string='Start Date')
     end_date = fields.Date(string='End Date', readonly=1)
     total_due = fields.Integer('Total due')
-    # phone = fields.Integer('Phone number', required=1)
 
     @api.model
     def create(self, vals):
