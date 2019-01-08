@@ -12,7 +12,7 @@
                         <field name="price"/>                        
                         <field name="paid_amount"/>
                         <field name="start_date"/>
-                        <field name="end_date"/>
+                        <field name="end_date" force_save='1'/>
                         <field name="total_due"/>
                         <hr/>
                         <field name="due"/>
